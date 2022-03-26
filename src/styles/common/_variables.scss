@@ -1,0 +1,21 @@
+// Fonts
+$font-bold: 'Gilroy-Bold';
+$font-medium: 'Gilroy-Medium';
+
+// colors
+$gray: #828282;
+$black: #070707;
+
+// indents
+$gap: 20px;
+$gap-half: 10px;
+
+
+// breakpoints
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$mobile-max: $tablet - 1;
+$tablet-max: $desktop - 1;

@@ -1,0 +1,81 @@
+.about-me-inner {
+  @include container;
+}
+.about-me-box {
+  text-align: center;
+  padding: 40px 0 100px;
+}
+
+.about-me-desc {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.about-me-name {
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: $black;
+  font-weight: 700;
+}
+
+.about-me-prof {
+  font-family: $font-medium;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: flex-end;
+  font-weight: 400;
+  color: $black;
+
+}
+
+.about-me-lang {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+
+  .ru {
+    border-right: 2px solid $black;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .eng {
+    font-weight: 700;
+    color: $black;
+  }
+
+}
+
+.about-me-img {
+  width: 90%;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+
+  .about-me-photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    max-width: 100%;
+  }
+}
+
+.about-me-caption {
+  margin-top: 100px;
+  background-color: #F6F6F6;
+  padding: 120px 0 100px;
+
+  .about-me-title {
+    font-size: 34px;
+    line-height: 42px;
+    color: $black;
+    font-weight: 700;
+  }
+  p {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
